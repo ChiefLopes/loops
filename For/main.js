@@ -180,3 +180,23 @@ for (let num = 0; num < setOfNumber.length; num++) {
   console.log(setOfNumber);
 }
 
+// for (let num = 0; num < setOfNumber.length; num++) {
+//   if (typeof setOfNumber[num] !== "number") {
+//     continue;
+//   }
+//   console.log(setOfNumber[num]);
+// }
+
+let gender = "boy";
+
+for (let boy = 1; boy < 4; boy++) {
+  boy < 2 ? gender = "boy" : gender = "boys";
+
+  console.log(`I saw ${boy} ${gender}`);
+
+  for (let claim = 1; claim < 5; claim++) {
+    boy < 2 ? (gender = "boy") : (gender = "boys");
+     console.log(`i saw ${claim} ${gender}`);
+  }
+}
+
