@@ -29,3 +29,25 @@ while (dice !== 6){
     console.log(`You rolled a ${dice}.`);
     dice = Math.trunc(Math.random() * 6) + 1;
 }
+
+let n = 0, x = 0;
+
+while (n < 3) {
+  n++;
+    x += n;
+    console.log(x);
+}
+
+let d = 0;
+for (let n = 1; n < 4; n++) {
+    d += n;
+    console.log(d);
+}
+
+let beans = 7;
+while (beans > 7) {
+    console.log("beans is sweet");
+    beans++;
+}
+
+
