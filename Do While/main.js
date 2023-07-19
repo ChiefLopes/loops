@@ -12,6 +12,10 @@
 // 3. If the condition is true, the loop goes back to step 1 and repeats the process, executing the code block again.
 // 4. If the condition is false, the loop ends, and the program continues with the next statement after the loop.
 
+//? statement is always executed once before the condition is checked. (To execute multiple statements, use a block statement ({ }) to group those statements.)
+
+//? If condition is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is false, execution stops, and control passes to the statement following do...while.
+
 let count = 0;
 
 do {
@@ -27,3 +31,4 @@ while (count < 5) {
     count++
     console.log(count);
 }
+
