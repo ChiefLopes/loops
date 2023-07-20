@@ -33,3 +33,11 @@ while (init < 5) {
     console.log(init);
 }
 
+const fruits = ['orange', 'apple', 'banana', 'guava', 'mango'];
+
+let fruitNum = 0;
+
+do {
+    console.log(`${fruits[fruitNum]}`);
+    fruitNum++;
+}  while (fruitNum < fruits.length)
