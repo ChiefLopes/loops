@@ -2,7 +2,7 @@
 
 //! Here's the basic syntax of the for...in loop
 
-// ? for (variable in object) {
+// ? for (key in object) {
 // code to be executed
 // ?}
 
