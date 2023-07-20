@@ -28,3 +28,27 @@ for (let stuffs in groceries) {
    console.log(`The ${stuffs} here is ${groceries[stuffs]}`);
 }
 
+
+
+
+const salary = {
+  John: "4000",
+  Peter: "3000",
+  Mary: "2500",
+  Mark: "5000"
+}
+
+Object.defineProperty(salary, "John", {
+  value: "4000",
+  enumerable: false, // This property is enumerable
+});
+
+for (earns in salary) {
+  let salaries = `$${salary[earns]}`
+  console.log(`${earns} earns ${salaries} in a month`);
+}
+
+
+
+
+
