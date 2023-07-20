@@ -10,7 +10,11 @@
 // !--- THE WHILE LOOP ------- 
 // ! >> The while loop loops through a block of code as long as a specified condition is true
 // ? SYNTAX
- //* {while (condition) {
+
+//? It has an initializer which is first declared as a variable as seen at line 19.
+//? Then the while keyword followed by a parenthesis which would contain the condition and then a curly braces which would contain the code to be executed.
+
+ //* while (condition) {
   //* code block to be executed
 //* }
 

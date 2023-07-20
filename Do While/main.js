@@ -27,8 +27,9 @@ for (let count = 0; count < 5; count++){
     console.log(`this is for loop ${count}`);
 }
 
-while (count < 5) {
-    count++
-    console.log(count);
+let init = 0
+while (init < 5) {
+    init++
+    console.log(init);
 }
 
