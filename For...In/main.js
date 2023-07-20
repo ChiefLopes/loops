@@ -2,8 +2,8 @@
 
 //! Here's the basic syntax of the for...in loop
 
-// ? for (key in object) {
-// code to be executed
+// ? for (variable in object) {
+//! code to be executed
 // ?}
 
 // Example
@@ -24,7 +24,7 @@ let groceries = {
   addition: 'milk'
 }
 
-for (stuffs in groceries) {
-   console.log(stuffs + ':' + groceries[stuffs]);
+for (let stuffs in groceries) {
+   console.log(`The ${stuffs} here is ${groceries[stuffs]}`);
 }
 
