@@ -13,13 +13,18 @@ let person = {
   occupation: "coder",
 };
 
-for (keys in person) {
-  console.log(`${keys} : ${person[keys]}`);
-}
-for (keys in person) {
-  console.log(`${keys} : ${person.keys}`);
+// for (keys in person) {
+//   console.log(`${keys} : ${person[keys]}`);
+// }
+
+let groceries = {
+  food: 'garri',
+  support: 'groundnut',
+  taste: 'sugar',
+  addition: 'milk'
 }
 
-for (prop of person) {
-  console.log(prop);
+for (stuffs in groceries) {
+   console.log(stuffs + ':' + groceries[stuffs]);
 }
+
