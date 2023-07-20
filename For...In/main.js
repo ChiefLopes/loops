@@ -38,9 +38,13 @@ const salary = {
   Mark: "5000"
 }
 
+// ! In JavaScript, "enumerable" refers to a property attribute that determines whether a property can be iterated over during certain operations, such as when using loops like "for...in" loop. Properties with the enumerable attribute set to true are included in iterations, while properties with the enumerable attribute set to false are skipped.
+
+//!However, you can change the enumerability of a property using the Object.defineProperty() method or by using property initializers in object literals with the ES2015+ syntax.
+
 Object.defineProperty(salary, "John", {
   value: "4000",
-  enumerable: false, // This property is enumerable
+  enumerable: true, // This property is enumerable because it is being set to true
 });
 
 for (earns in salary) {
@@ -60,7 +64,7 @@ const house = {
 
 //! SOLUTION 
 
-for (props in house) {
+for (let props in house) {
      console.log(`${props}: ${house[props]}`);
 }
 
