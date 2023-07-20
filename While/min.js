@@ -14,6 +14,8 @@
 //? It has an initializer which is first declared as a variable as seen at line 19.
 //? Then the while keyword followed by a parenthesis which would contain the condition and then a curly braces which would contain the code to be executed.
 
+// !the difference between the for and while loops is that in the while loop, the initialization is written before and outside the while statement while in the for loop, everything goes after the for statement.
+
  //* while (condition) {
   //* code block to be executed
 //* }
