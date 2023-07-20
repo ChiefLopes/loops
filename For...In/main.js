@@ -49,6 +49,21 @@ for (earns in salary) {
 }
 
 
+const house = {
+  type: 'detached',
+  build: 'brick',
+  year: 2019,
+  price: 25000,
+  driveway: true
+}
+// Use the for...in loop to iterate over the properties and console the property names along with their values
+
+//! SOLUTION 
+
+for (props in house) {
+     console.log(`${props}: ${house[props]}`);
+}
+
 
 
 
