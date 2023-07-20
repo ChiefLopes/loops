@@ -7,7 +7,7 @@
 //   console.log(`I came to your house ${come} ${time}`);
 // }
 
-// !--- THE WHILE LOOP ------- 
+// !--- THE WHILE LOOP -------
 // ! >> The while loop loops through a block of code as long as a specified condition is true
 // ? SYNTAX
 
@@ -16,49 +16,62 @@
 
 // !the difference between the for and while loops is that in the while loop, the initialization is written before and outside the while statement while in the for loop, everything goes after the for statement.
 
- //* while (condition) {
-  //* code block to be executed
+//* while (condition) {
+//* code block to be executed
 //* }
 
 let come = 1;
-while (come <= 10){
-    come === 1 ? time = 'time': time = "times";
-    console.log(`I came to your house ${come} ${time}`);
-    come++
+while (come <= 10) {
+  come === 1 ? (time = "time") : (time = "times");
+  console.log(`I came to your house ${come} ${time}`);
+  come++;
 }
-
 
 let dice = Math.trunc(Math.random() * 6) + 1;
 // console.log(dice);
 
-while (dice !== 6){
-    console.log(`You rolled a ${dice}.`);
-    dice = Math.trunc(Math.random() * 6) + 1;
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}.`);
+  dice = Math.trunc(Math.random() * 6) + 1;
 }
 
-let n = 0, x = 0;
+let n = 0,
+  x = 0;
 
 while (n < 3) {
   n++;
-    x += n;
-    console.log(x);
+  x += n;
+  console.log(x);
 }
 
 let d = 0;
 for (let n = 1; n < 4; n++) {
-    d += n;
-    console.log(d);
+  d += n;
+  console.log(d);
 }
 
 let beans = 7;
 while (beans > 7) {
-    console.log("beans is sweet");
-    beans++;
+  console.log("beans is sweet");
+  beans++;
 }
-
 
 let i = 0;
 while (i < 5) {
   console.log(i);
   i++;
 }
+
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
+}
+
+const colors = ["red", "green", "blue", "pink", "orange"];
+
+let color = 0;
+while (color < colors.length) {
+  console.log(`${colors[color]}`);
+  color++;
+}
+
+
