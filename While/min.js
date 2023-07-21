@@ -73,5 +73,5 @@ while (color < colors.length) {
   console.log(`${colors[color]}`);
   color++;
 }
-
+    
 
