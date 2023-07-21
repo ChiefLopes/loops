@@ -41,10 +41,14 @@ for (let letters of name) {
 }
  
 // CHALLENGE 
-// Create a list of colours red, orange, yellow, green, blue and iterate over them using the for...of loop. Log the result to the console
+//  1. Create a list of colours red, orange, yellow, green, blue and iterate over them using the for...of loop. Log the result to the console
 
 const colours = ['red', 'orange', 'yellow', 'green', 'blue']
 
 for (let each of colours) {
    console.log(each);
 }
+
+// 2. Use a break statement to only show red, orange and yellow and break out of the loop once it gets to green 
+
+
