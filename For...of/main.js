@@ -45,9 +45,13 @@ for (let letters of name) {
 
 const colours = ['red', 'orange', 'yellow', 'green', 'blue']
 
+console.log("FIRST CHALLENGE");
+
 for (let each of colours) {
    console.log(each);
 }
+
+console.log("SECOND CHALLENGE");
 
 // 2. Use a break statement to only show red, orange and yellow and break out of the loop once it gets to green 
 
