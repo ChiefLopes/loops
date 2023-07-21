@@ -51,4 +51,8 @@ for (let each of colours) {
 
 // 2. Use a break statement to only show red, orange and yellow and break out of the loop once it gets to green 
 
-
+for (let each of colours) {
+    if (each === "green") {
+        break;
+    } else console.log(each);
+}
