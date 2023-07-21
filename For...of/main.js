@@ -43,3 +43,8 @@ for (let letters of name) {
 // CHALLENGE 
 // Create a list of colours red, orange, yellow, green, blue and iterate over them using the for...of loop. Log the result to the console
 
+const colours = ['red', 'orange', 'yellow', 'green', 'blue']
+
+for (let each of colours) {
+   console.log(each);
+}
